@@ -1,0 +1,14 @@
+package hexlet.code.dto;
+
+import hexlet.code.model.Course;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+import java.util.List;
+
+@AllArgsConstructor
+@Getter
+public class CoursesPage {
+    private List<Course> courses;
+    private String header;
+}
